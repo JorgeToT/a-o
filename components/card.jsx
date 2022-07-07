@@ -21,7 +21,14 @@ const Card = props => {
         p={8}
       >
         <Link href={props.link} cursor={'pointer'} target="_blank">
-          <Image h={300} src={props.image} mx="auto" mb={4} objectFit="cover" />
+          <Image
+            h={300}
+            src={props.image}
+            mx="auto"
+            mb={4}
+            objectFit="cover"
+            alt={props.name}
+          />
           <Text align={'center'}>{props.name}</Text>
         </Link>
       </Box>
