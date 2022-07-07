@@ -1,4 +1,4 @@
-import Card from '../components/Card'
+import Card from '../components/card'
 import { Box, Flex, Heading } from '@chakra-ui/react'
 import data from './../data/dal.json'
 
