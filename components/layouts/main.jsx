@@ -6,11 +6,13 @@ const Main = ({ children }) => {
     <Box as="main">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Date a Live</title>
-        <link rel="icon" href="/images/icon.jpg" />
+        <title>Anime Order</title>
+        <link rel="icon" href="/images/DAL/icon.jpg" />
       </Head>
 
-      <Container maxW={'container.2xl'} pt={6}>{children}</Container>
+      <Container maxW={'container.2xl'} pt={6}>
+        {children}
+      </Container>
     </Box>
   )
 }
