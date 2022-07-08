@@ -5,7 +5,7 @@ import Card from '../../components/card'
 export async function getServerSideProps(context) {
   const { id } = context.query
   return {
-    props: { id: id }, // will be passed to the page component as props
+    props: { id: id },
   }
 }
 
@@ -27,7 +27,7 @@ const Anime = ({ id }) => {
   return (
     <Box>
       <Link href="/">Home</Link>
-      <Heading as="h2" color={'white'} align={'center'} mb={5}>
+      <Heading as="h2" align={'center'} mb={5} variant="section-title">
         {dataInfo[animeIndex].name}
       </Heading>
       <Flex bg="gray.700" p={30} justifyContent={'space-evenly'} wrap="wrap">

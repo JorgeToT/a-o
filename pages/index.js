@@ -1,19 +1,26 @@
-import { Box, Link, List, ListItem } from '@chakra-ui/react'
+import { Box, Heading, Flex } from '@chakra-ui/react'
+import dataInfo from '../data/animeData.json'
+import Card from '../components/card'
 
 const Page = () => {
+  const cards = dataInfo.map(item => {
+    return (
+      <Card
+        key={item.id}
+        name={item.name}
+        image={item.image}
+        link={`/anime/${item.id}`}
+      />
+    )
+  })
   return (
     <Box>
-      <List>
-        <ListItem>
-          <Link href="/anime/1">Date a Live</Link>
-        </ListItem>
-        <ListItem>
-          <Link href="/anime/2">Psycho Pass</Link>
-        </ListItem>
-        <ListItem>
-          <Link href="/anime/3">Dragon Ball</Link>
-        </ListItem>
-      </List>
+      <Heading as="h1" variant={'section-title'} color="white" align="center">
+        Anime List
+      </Heading>
+      <Flex bg="gray.700" p={30} justifyContent={'space-evenly'} wrap="wrap">
+        {cards}
+      </Flex>
     </Box>
   )
 }

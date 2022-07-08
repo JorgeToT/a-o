@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Date a Live",
+    "image": "/images/DAL/DALI.jpg",
     "data": [
       {
         "id": 1,
@@ -62,11 +63,6 @@
   {
     "id": 2,
     "name": "Psycho-Pass",
-    "data": []
-  },
-  {
-    "id": 3,
-    "name": "Dragon Ball",
     "data": []
   }
 ]

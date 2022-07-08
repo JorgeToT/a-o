@@ -12,7 +12,7 @@ const Card = props => {
     <BoxImage>
       <Box
         w={400}
-        h={400}
+        h={500}
         mb={10}
         mx={10}
         bg="whiteAlpha.100"
@@ -22,14 +22,17 @@ const Card = props => {
       >
         <Link href={props.link} cursor={'pointer'} target="_blank">
           <Image
-            h={300}
+            h={400}
+            w={300}
             src={props.image}
             mx="auto"
             mb={4}
             objectFit="cover"
             alt={props.name}
           />
-          <Text align={'center'}>{props.name}</Text>
+          <Text align={'center'} fontSize={20}>
+            {props.name}
+          </Text>
         </Link>
       </Box>
     </BoxImage>
