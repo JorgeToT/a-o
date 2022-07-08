@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Date a Live",
+    "data": [
+      {
+        "id": 1,
+        "name": "Date a Live I",
+        "image": "/images/DALI.jpg",
+        "link": "https://jkanime.net/date-a-live/"
+      },
+      {
+        "id": 2,
+        "name": "Date a Live: Date to Date",
+        "image": "/images/DALOVAI.jpg",
+        "link": "https://jkanime.net/date-a-live-ova/"
+      },
+      {
+        "id": 3,
+        "name": "Date a Live II",
+        "image": "/images/DALII.jpg",
+        "link": "https://jkanime.net/date-a-live-ii/"
+      },
+      {
+        "id": 4,
+        "name": "Date a Live: Encore  ",
+        "image": "/images/DALOVAII.jpg",
+        "link": "https://jkanime.net/date-a-live-ii-encore/"
+      },
+      {
+        "id": 5,
+        "name": "Date a Live Movie: Mayuri Judgement",
+        "image": "/images/DALMI.jpg",
+        "link": "https://jkanime.net/date-a-live-movie-mayuri-judgment/"
+      },
+      {
+        "id": 6,
+        "name": "Date a Live III",
+        "image": "/images/DALIII.jpg",
+        "link": "https://jkanime.net/date-a-live-iii/"
+      },
+      {
+        "id": 7,
+        "name": "Date A Bullet: Dead or Bullet",
+        "image": "/images/DALMII.jpg",
+        "link": "https://jkanime.net/date-a-bullet-dead-or-bullet/"
+      },
+      {
+        "id": 8,
+        "name": "Date A Bullet: Nightmare or Queen",
+        "image": "/images/DALMIII.jpg",
+        "link": "https://jkanime.net/date-a-bullet-nightmare-or-queen/"
+      },
+      {
+        "id": 9,
+        "name": "Date a Live IV",
+        "image": "/images/DALIV.jpg",
+        "link": "https://jkanime.net/date-a-live-iv/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Psycho-Pass",
+    "data": []
+  },
+  {
+    "id": 3,
+    "name": "Dragon Ball",
+    "data": []
+  }
+]
