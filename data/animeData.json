@@ -114,5 +114,36 @@
         "link": "https://jkanime.net/psycho-pass-3-first-inspector/"
       }
     ]
+  },
+  {
+    "id": 3,
+    "name": "Overlord",
+    "image": "/images/Overlord/OIII.jpg",
+    "data": [
+      {
+        "id": 1,
+        "name": "Overlord",
+        "image": "/images/Overlord/OI.jpg",
+        "link": "https://jkanime.net/overlord/"
+      },
+      {
+        "id": 2,
+        "name": "Overlord II",
+        "image": "/images/Overlord/OII.jpg",
+        "link": "https://jkanime.net/overlord-ii/"
+      },
+      {
+        "id": 3,
+        "name": "Overlord III",
+        "image": "/images/Overlord/OIII.jpg",
+        "link": "https://jkanime.net/overlord-iii/"
+      },
+      {
+        "id": 4,
+        "name": "Overlord IV",
+        "image": "/images/Overlord/OIV.jpg",
+        "link": "https://jkanime.net/overlord-iv/"
+      }
+    ]
   }
 ]

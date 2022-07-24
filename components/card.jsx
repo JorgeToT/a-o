@@ -20,7 +20,7 @@ const Card = props => {
         boxShadow="lg"
         p={8}
       >
-        <Link href={props.link} cursor={'pointer'} target="_blank">
+        <Link href={props.link} cursor={'pointer'}>
           <Image
             h={300}
             w={200}
