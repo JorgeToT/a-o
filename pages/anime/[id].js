@@ -10,11 +10,7 @@ export async function getServerSideProps(context) {
 }
 
 const Anime = ({ id }) => {
-  const animeIndex = dataInfo.findIndex(item => {
-    return item.id === +id
-  })
-  const animeData = dataInfo[animeIndex].data
-  const cards = animeData.map(item => {
+  const cards = dataInfo[id].data.map(item => {
     return (
       <Card
         key={item.id}
@@ -26,11 +22,13 @@ const Anime = ({ id }) => {
   })
   return (
     <Box>
-      <Link href="/">Home</Link>
-      <Heading as="h2" align={'center'} mb={5} variant="section-title">
-        {dataInfo[animeIndex].name}
-      </Heading>
-      <Flex bg="gray.700" p={30} justifyContent={'space-evenly'} wrap="wrap">
+      <Flex alignItems={'center'} mb={4}>
+        <Link href="/" mr={20}>Home</Link>
+        <Heading as="h2" align={'center'} mb={5} display={'contents'} variant="section-title">
+          {dataInfo[id].name}
+        </Heading>
+      </Flex>
+      <Flex bg="blue.800" p={30} justifyContent={'space-evenly'} wrap="wrap">
         {cards}
       </Flex>
     </Box>

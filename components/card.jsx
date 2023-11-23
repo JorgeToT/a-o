@@ -4,6 +4,7 @@ import styled from '@emotion/styled'
 const BoxImage = styled.span`
   &:hover div {
     transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
   }
 `
 
@@ -11,26 +12,36 @@ const Card = props => {
   return (
     <BoxImage>
       <Box
-        w={300}
-        h={400}
+        w={400}
+        h={500}
         mb={10}
         mx={10}
-        bg="whiteAlpha.100"
+        bg="gray.900"
         borderRadius="lg"
         boxShadow="lg"
         p={8}
       >
-        <Link href={props.link} cursor={'pointer'}>
+        <Link
+          href={props.link}
+          cursor={'pointer'}
+          _hover={{ textDecoration: 'none' }}
+        >
           <Image
-            h={300}
-            w={200}
+            h={350}
+            w={250}
             src={props.image}
             mx="auto"
-            mb={2}
+            mb={5}
+            borderRadius={'lg'}
             objectFit="cover"
             alt={props.name}
           />
-          <Text align={'center'} fontSize={16}>
+          <Text
+            align={'center'}
+            fontSize={22}
+            fontWeight={'semibold'}
+            color={'white'}
+          >
             {props.name}
           </Text>
         </Link>

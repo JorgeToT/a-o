@@ -1,59 +1,49 @@
 [
   {
-    "id": 1,
     "name": "Date a Live",
     "image": "/images/DAL/DALI.jpg",
     "data": [
       {
-        "id": 1,
         "name": "Date a Live I",
         "image": "/images/DAL/DALI.jpg",
         "link": "https://jkanime.net/date-a-live/"
       },
       {
-        "id": 2,
         "name": "Date a Live: Date to Date",
         "image": "/images/DAL/DALOVAI.jpg",
         "link": "https://jkanime.net/date-a-live-ova/"
       },
       {
-        "id": 3,
         "name": "Date a Live II",
         "image": "/images/DAL/DALII.jpg",
         "link": "https://jkanime.net/date-a-live-ii/"
       },
       {
-        "id": 4,
         "name": "Date a Live: Encore  ",
         "image": "/images/DAL/DALOVAII.jpg",
         "link": "https://jkanime.net/date-a-live-ii-encore/"
       },
       {
-        "id": 5,
         "name": "Date a Live Movie: Mayuri Judgement",
         "image": "/images/DAL/DALMI.jpg",
         "link": "https://jkanime.net/date-a-live-movie-mayuri-judgment/"
       },
       {
-        "id": 6,
         "name": "Date a Live III",
         "image": "/images/DAL/DALIII.jpg",
         "link": "https://jkanime.net/date-a-live-iii/"
       },
       {
-        "id": 7,
         "name": "Date A Bullet: Dead or Bullet",
         "image": "/images/DAL/DALMII.jpg",
         "link": "https://jkanime.net/date-a-bullet-dead-or-bullet/"
       },
       {
-        "id": 8,
         "name": "Date A Bullet: Nightmare or Queen",
         "image": "/images/DAL/DALMIII.jpg",
         "link": "https://jkanime.net/date-a-bullet-nightmare-or-queen/"
       },
       {
-        "id": 9,
         "name": "Date a Live IV",
         "image": "/images/DAL/DALIV.jpg",
         "link": "https://jkanime.net/date-a-live-iv/"
@@ -61,54 +51,45 @@
     ]
   },
   {
-    "id": 2,
     "name": "Psycho-Pass",
     "image": "/images/PP/PP.jpg",
     "data": [
       {
-        "id": 1,
         "name": "Psycho-Pass",
         "image": "/images/PP/PP.jpg",
         "link": "https://jkanime.net/psycho-pass/"
       },
       {
-        "id": 2,
         "name": "Psycho-Pass: 2nd Season",
         "image": "/images/PP/PP2.jpg",
         "link": "https://jkanime.net/psycho-pass-2/"
       },
       {
-        "id": 3,
         "name": "Psycho-Pass: Movie",
         "image": "/images/PP/PPM.jpg",
         "link": "https://jkanime.net/psycho-pass-movie/"
       },
       {
-        "id": 4,
         "name": "Psycho-Pass Sinners of the system: Case 1",
         "image": "/images/PP/PPS1.jpg",
         "link": "https://jkanime.net/psycho-pass-sinners-of-the-system-case1-tsumi-to-bachi/pelicula/"
       },
       {
-        "id": 5,
         "name": "Psycho-Pass Sinners of the system: Case 2",
         "image": "/images/PP/PPS2.jpg",
         "link": "https://jkanime.net/psycho-pass-sinners-of-the-system-case2-first-guardian/pelicula/"
       },
       {
-        "id": 6,
         "name": "Psycho-Pass Sinners of the system: Case 3",
         "image": "/images/PP/PPS3.jpg",
         "link": "https://jkanime.net/psycho-pass-sinners-of-the-system-case3-onshuu-no-kanata-ni/pelicula/"
       },
       {
-        "id": 7,
         "name": "Psycho-Pass: 3rd Season",
         "image": "/images/PP/PP3.jpg",
         "link": "https://jkanime.net/psycho-pass-3/"
       },
       {
-        "id": 8,
         "name": "Psycho-Pass: First Inspector",
         "image": "/images/PP/PPF.jpg",
         "link": "https://jkanime.net/psycho-pass-3-first-inspector/"
@@ -116,33 +97,49 @@
     ]
   },
   {
-    "id": 3,
     "name": "Overlord",
     "image": "/images/OVERLORD/OIII.jpg",
     "data": [
       {
-        "id": 1,
         "name": "Overlord",
         "image": "/images/OVERLORD/OI.jpg",
         "link": "https://jkanime.net/overlord/"
       },
       {
-        "id": 2,
         "name": "Overlord II",
         "image": "/images/OVERLORD/OII.jpg",
         "link": "https://jkanime.net/overlord-ii/"
       },
       {
-        "id": 3,
         "name": "Overlord III",
         "image": "/images/OVERLORD/OIII.jpg",
         "link": "https://jkanime.net/overlord-iii/"
       },
       {
-        "id": 4,
         "name": "Overlord IV",
         "image": "/images/OVERLORD/OIV.jpg",
         "link": "https://jkanime.net/overlord-iv/"
+      }
+    ]
+  },
+  {
+    "name": "Fate",
+    "image": "https://sm.ign.com/ign_latam/screenshot/default/thumb-1920-785425_mqcj.jpg",
+    "data": [
+      {
+        "name": "Fate Stay Night",
+        "image": "https://www3.animeflv.net/uploads/animes/covers/150.jpg",
+        "link": "https://www3.animeflv.net/anime/fate-stay-night"
+      },
+      {
+        "name": "Fate/stay night: Unlimited Blade Works",
+        "image": "https://www3.animeflv.net/uploads/animes/covers/1618.jpg",
+        "link": "https://www3.animeflv.net/anime/fate-stay-night-unlimited-blade-works"
+      },
+      {
+        "name": "Fate/stay night: Unlimited Blade Works (TV) 2nd Season",
+        "image": "https://www3.animeflv.net/uploads/animes/covers/1897.jpg",
+        "link": "https://www3.animeflv.net/anime/fate-stay-night-unlimited-blade-works-2"
       }
     ]
   }
